@@ -1,0 +1,99 @@
+h1{
+	color: red;
+	text-align: center;
+}
+
+.wraper{
+	margin-top: 50px;
+}
+
+.container-1, .container-2, .container-3{
+	width:30%;
+	position: absolute;
+	background: #ccc;
+}
+
+.hijo-1, .hijo-2, .hijo-3{
+	
+	position: relative;
+	top:0;
+	right:0;
+	float: right;
+	padding: 10px 10%;
+}
+
+	.container-1{
+		
+		left:0;
+		}
+
+	.container-2{
+		
+		left:33%;
+	}
+	
+	.container-3{
+	
+	left:66%;
+}
+
+
+.hijo-1{
+	background: #FF9999;
+	
+}
+
+.hijo-2{
+	background: red;
+}
+
+.hijo-3{
+	background: #FFFF66;
+	
+}
+
+
+p{
+	padding: 25px;
+	clear:both;
+}
+
+
+@media (max-width: 772px) {
+	.wraper{
+		margin:0 auto;
+		display: inline-block;
+	}
+ .container-1, .container-2, .container-3{
+		width:100%!important;
+		position: absolute;
+		background: pink;
+		display:block;
+	}
+
+.container-2{
+		width:100%!important;
+		position: absolute;
+		background: brown;
+	}
+
+	.container-1{
+		
+		top:25%;
+		}
+
+.hijo-1, .hijo-2, .hijo-3{
+	
+	
+	float: none;
+	padding: 10px 10%;
+}
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 992px){
+
+
+}
